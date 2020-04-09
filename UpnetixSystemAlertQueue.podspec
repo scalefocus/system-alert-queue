@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   
-  s.name             = 'UpnetixSystemAlertQueue'
+  s.name             = 'SystemAlertQueue'
   s.version          = '2.0.0'
-  s.summary          = 'Upnetix System Alert Queue.'
+  s.summary          = 'System Alert Queue.'
   s.description      = <<-DESC
 Simple manager that presents alerts by adding them in queue and chains their presentation. A priority can be set to have further control.
                        DESC
