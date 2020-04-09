@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'UpnetixSystemAlertQueue_Tests' do
+  pod 'UpnetixSystemAlertQueue', :path => '../'
+end
+
+target 'UpnetixSystemAlertQueueExample' do
+  pod 'UpnetixSystemAlertQueue', :path => '../'
+end

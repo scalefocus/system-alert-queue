@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D70297E68B54CCC561D2937B6FB4CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		33A5DC99B0846842BB3C0E0079F5592E /* AlertFactoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0983C7A1F7CA5088A6874AB4B6B13B /* AlertFactoryManager.swift */; };
+		6104821814D4B62992B7CED102F7CF42 /* Pods-UpnetixSystemAlertQueueExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ACB6EEAE2C2DA829AD7EC0A8E966CB2 /* Pods-UpnetixSystemAlertQueueExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670140A406BE3CEA60CAFAFF64A51312 /* UIAlertControllerInWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E33BC2A47C5663EB583E467DF5074 /* UIAlertControllerInWindow.swift */; };
+		670497BCED3A545C9C935352374471C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F69F06C91D7AF63B5D1951C5ED9419A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		71919FEA2ED8CACAD6C5302DA79B70DA /* UpnetixSystemAlertQueue-iOS13.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E14A3345498879B523AEA34A19EA3407 /* UpnetixSystemAlertQueue-iOS13.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		889CC7364343B288197AE77ABF8EF39D /* Pods-UpnetixSystemAlertQueue_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A6627E58CB0474BF15B7E7020BDC2E /* Pods-UpnetixSystemAlertQueue_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9331E7EC933B8A5C91F7933FA02F8F75 /* UIAlertControllerInWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E33BC2A47C5663EB583E467DF5074 /* UIAlertControllerInWindow.swift */; };
+		9A7146A06BBFCC0047F608AE17F2BFB5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA2CCBCB6B6A734D8F914E4E86F1A /* Constants.swift */; };
+		9F0CBBF3D3CCA464388AC3D2087E1A64 /* Pods-UpnetixSystemAlertQueue_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6D89695351721B62D98B69D6CDA28E /* Pods-UpnetixSystemAlertQueue_Tests-dummy.m */; };
+		AF0CC43CF188B289493BD01DF0E7403F /* AlertFactoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0983C7A1F7CA5088A6874AB4B6B13B /* AlertFactoryManager.swift */; };
+		B99E9F7DDD5EAD955D02C28306A79564 /* UpnetixSystemAlertQueue-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD12919806474FF1CF909943A1C86F06 /* UpnetixSystemAlertQueue-iOS9.3-dummy.m */; };
+		D1C8E6865BEE7442DC9E7FEF3DE5CDA0 /* Pods-UpnetixSystemAlertQueueExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4F90EFAC44FC23C11CE1D1FC9118E8 /* Pods-UpnetixSystemAlertQueueExample-dummy.m */; };
+		D72A451901BF64E64FA7E38B945BA7AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA2CCBCB6B6A734D8F914E4E86F1A /* Constants.swift */; };
+		DE246D0FFCDF62DC2FB70E7DAF7DE05B /* UpnetixSystemAlertQueue-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 072645DA2F3B5B405B0099C0BE8A9393 /* UpnetixSystemAlertQueue-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A97F560105629A844444FB9D8DA39D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F68AB99B7D786FB3995FFAAF7A6D7A84 /* UpnetixSystemAlertQueue-iOS13.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3712B8C25ED575AACB45ABC09D8723E /* UpnetixSystemAlertQueue-iOS13.2-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B0397767F55703D3902AC5488C7FF79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3703D342C6B665A8D1FD0BD43F11053D;
+			remoteInfo = "UpnetixSystemAlertQueue-iOS9.3";
+		};
+		728663D060BE1064F8EDD8839D404DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCBB709315BA5F50F0BE4C47D7F51DC;
+			remoteInfo = "UpnetixSystemAlertQueue-iOS13.2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033EB9A80D76B262F6E588F6D3D00123 /* Pods-UpnetixSystemAlertQueue_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UpnetixSystemAlertQueue_Tests.modulemap"; sourceTree = "<group>"; };
+		072645DA2F3B5B405B0099C0BE8A9393 /* UpnetixSystemAlertQueue-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UpnetixSystemAlertQueue-iOS9.3-umbrella.h"; path = "../UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
+		0A2B29884728066AE6E3A193D99E0CE3 /* Pods-UpnetixSystemAlertQueue_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UpnetixSystemAlertQueue_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DD2E745912D4C8D846BA551A1BB7431 /* UpnetixSystemAlertQueue-iOS9.3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "UpnetixSystemAlertQueue-iOS9.3-Info.plist"; path = "../UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-Info.plist"; sourceTree = "<group>"; };
+		1B6D89695351721B62D98B69D6CDA28E /* Pods-UpnetixSystemAlertQueue_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UpnetixSystemAlertQueue_Tests-dummy.m"; sourceTree = "<group>"; };
+		1DED0460A8010B710C5F2070308B2929 /* Pods-UpnetixSystemAlertQueueExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UpnetixSystemAlertQueueExample-frameworks.sh"; sourceTree = "<group>"; };
+		2108FDB5FC3EE37B7EC8E21B299382FE /* Pods-UpnetixSystemAlertQueue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpnetixSystemAlertQueue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		239482DDF390EF9B847DE19032CE5B93 /* UpnetixSystemAlertQueue-iOS13.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UpnetixSystemAlertQueue-iOS13.2.xcconfig"; sourceTree = "<group>"; };
+		24EE3A2354DFFE82924D45D2FDDBA09D /* Pods-UpnetixSystemAlertQueueExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UpnetixSystemAlertQueueExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		27F00D6E72613144CE0449663860754C /* Pods-UpnetixSystemAlertQueueExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpnetixSystemAlertQueueExample.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33A6627E58CB0474BF15B7E7020BDC2E /* Pods-UpnetixSystemAlertQueue_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UpnetixSystemAlertQueue_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A52267BFDCC201D32666D26561C2B05 /* UpnetixSystemAlertQueue-iOS13.2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UpnetixSystemAlertQueue-iOS13.2-Info.plist"; sourceTree = "<group>"; };
+		44491F3AD6F8A86038D74FFA47FA74DB /* Pods-UpnetixSystemAlertQueueExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UpnetixSystemAlertQueueExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C0983C7A1F7CA5088A6874AB4B6B13B /* AlertFactoryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertFactoryManager.swift; path = UpnetixSystemAlertQueue/Classes/AlertFactoryManager.swift; sourceTree = "<group>"; };
+		56BBD245678417F1C9A9F4B982A1758D /* Pods_UpnetixSystemAlertQueueExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UpnetixSystemAlertQueueExample.framework; path = "Pods-UpnetixSystemAlertQueueExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB6EEAE2C2DA829AD7EC0A8E966CB2 /* Pods-UpnetixSystemAlertQueueExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UpnetixSystemAlertQueueExample-umbrella.h"; sourceTree = "<group>"; };
+		5CDAA2CCBCB6B6A734D8F914E4E86F1A /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = UpnetixSystemAlertQueue/Classes/Constants.swift; sourceTree = "<group>"; };
+		5F900B5AD5C8A54460D470ABCF5360B6 /* UpnetixSystemAlertQueue-iOS13.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UpnetixSystemAlertQueue-iOS13.2-prefix.pch"; sourceTree = "<group>"; };
+		6904CA01576538B2E3262898478EDDEF /* UpnetixSystemAlertQueue.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UpnetixSystemAlertQueue.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		703926FCCE70EDAA294F60119B4A7CA0 /* UpnetixSystemAlertQueue-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "UpnetixSystemAlertQueue-iOS9.3.xcconfig"; path = "../UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3.xcconfig"; sourceTree = "<group>"; };
+		758865B8B544C9ED769594BFFC9C94F4 /* Pods-UpnetixSystemAlertQueue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpnetixSystemAlertQueue_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77A048830B1E839335E6A7A8C2DD36D7 /* Pods-UpnetixSystemAlertQueue_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UpnetixSystemAlertQueue_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		986B4E25A7DF7010F6DB1007D6EBCD0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3661477AADEEE02ADAF350E076827D /* UpnetixSystemAlertQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UpnetixSystemAlertQueue.framework; path = "UpnetixSystemAlertQueue-iOS13.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A486A3797777FE51A80D29E1B8F9E759 /* UpnetixSystemAlertQueue-iOS13.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UpnetixSystemAlertQueue-iOS13.2.modulemap"; sourceTree = "<group>"; };
+		A58048849CE626DF6E2D95924BC2168C /* Pods-UpnetixSystemAlertQueueExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UpnetixSystemAlertQueueExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B3D976CA803D54B6CE0536F252419A04 /* Pods-UpnetixSystemAlertQueue_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UpnetixSystemAlertQueue_Tests-Info.plist"; sourceTree = "<group>"; };
+		BF4F90EFAC44FC23C11CE1D1FC9118E8 /* Pods-UpnetixSystemAlertQueueExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UpnetixSystemAlertQueueExample-dummy.m"; sourceTree = "<group>"; };
+		C189C7DFF7F922B0D3F9536C0115C3C6 /* Pods-UpnetixSystemAlertQueue_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UpnetixSystemAlertQueue_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C30E33BC2A47C5663EB583E467DF5074 /* UIAlertControllerInWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertControllerInWindow.swift; path = UpnetixSystemAlertQueue/Classes/UIAlertControllerInWindow.swift; sourceTree = "<group>"; };
+		CB784FB1046D411FA956A6024C649A04 /* Pods-UpnetixSystemAlertQueueExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UpnetixSystemAlertQueueExample.modulemap"; sourceTree = "<group>"; };
+		E14A3345498879B523AEA34A19EA3407 /* UpnetixSystemAlertQueue-iOS13.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UpnetixSystemAlertQueue-iOS13.2-umbrella.h"; sourceTree = "<group>"; };
+		E97475E86C22D9416F41CCF6504B5C29 /* Pods_UpnetixSystemAlertQueue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UpnetixSystemAlertQueue_Tests.framework; path = "Pods-UpnetixSystemAlertQueue_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE661A56BF594FF511285DF842561B10 /* UpnetixSystemAlertQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UpnetixSystemAlertQueue.framework; path = "UpnetixSystemAlertQueue-iOS9.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9C442C04B75ACD2A0A9864F47BDF8A /* Pods-UpnetixSystemAlertQueueExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UpnetixSystemAlertQueueExample-Info.plist"; sourceTree = "<group>"; };
+		F228096518F3E30874E5488529CD15AA /* UpnetixSystemAlertQueue-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "UpnetixSystemAlertQueue-iOS9.3.modulemap"; path = "../UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		F27AAE56CC3A888CB170F0D15BF26E0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F3712B8C25ED575AACB45ABC09D8723E /* UpnetixSystemAlertQueue-iOS13.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UpnetixSystemAlertQueue-iOS13.2-dummy.m"; sourceTree = "<group>"; };
+		FD12919806474FF1CF909943A1C86F06 /* UpnetixSystemAlertQueue-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UpnetixSystemAlertQueue-iOS9.3-dummy.m"; path = "../UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-dummy.m"; sourceTree = "<group>"; };
+		FFD493EE04ADABEAC393A2BE180D9E4E /* UpnetixSystemAlertQueue-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UpnetixSystemAlertQueue-iOS9.3-prefix.pch"; path = "../UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072EF6D6394ED7D041C54FFEE26A2036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F69F06C91D7AF63B5D1951C5ED9419A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FB6C12F9F73D540632536EDD203056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670497BCED3A545C9C935352374471C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFFA7414D3098427C04046CFFE9EC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D70297E68B54CCC561D2937B6FB4CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96306AA4597089B24BD99AB1951F30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A97F560105629A844444FB9D8DA39D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF6E5C772A7E7E20D99EA30E8F952FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7668BB994176C964C503ABEA3758E080 /* UpnetixSystemAlertQueue */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5DB3A4C277DE8C362BF59323562F2B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97475E86C22D9416F41CCF6504B5C29 /* Pods_UpnetixSystemAlertQueue_Tests.framework */,
+				56BBD245678417F1C9A9F4B982A1758D /* Pods_UpnetixSystemAlertQueueExample.framework */,
+				9F3661477AADEEE02ADAF350E076827D /* UpnetixSystemAlertQueue.framework */,
+				EE661A56BF594FF511285DF842561B10 /* UpnetixSystemAlertQueue.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE854E85D0A295E61030697E3F6D5BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F39BCC95CA9E70AFDE9B42C782878DF /* Pods-UpnetixSystemAlertQueue_Tests */,
+				A93F887AE7C192A9AC0206D875F760F9 /* Pods-UpnetixSystemAlertQueueExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F39BCC95CA9E70AFDE9B42C782878DF /* Pods-UpnetixSystemAlertQueue_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				033EB9A80D76B262F6E588F6D3D00123 /* Pods-UpnetixSystemAlertQueue_Tests.modulemap */,
+				C189C7DFF7F922B0D3F9536C0115C3C6 /* Pods-UpnetixSystemAlertQueue_Tests-acknowledgements.markdown */,
+				0A2B29884728066AE6E3A193D99E0CE3 /* Pods-UpnetixSystemAlertQueue_Tests-acknowledgements.plist */,
+				1B6D89695351721B62D98B69D6CDA28E /* Pods-UpnetixSystemAlertQueue_Tests-dummy.m */,
+				77A048830B1E839335E6A7A8C2DD36D7 /* Pods-UpnetixSystemAlertQueue_Tests-frameworks.sh */,
+				B3D976CA803D54B6CE0536F252419A04 /* Pods-UpnetixSystemAlertQueue_Tests-Info.plist */,
+				33A6627E58CB0474BF15B7E7020BDC2E /* Pods-UpnetixSystemAlertQueue_Tests-umbrella.h */,
+				2108FDB5FC3EE37B7EC8E21B299382FE /* Pods-UpnetixSystemAlertQueue_Tests.debug.xcconfig */,
+				758865B8B544C9ED769594BFFC9C94F4 /* Pods-UpnetixSystemAlertQueue_Tests.release.xcconfig */,
+			);
+			name = "Pods-UpnetixSystemAlertQueue_Tests";
+			path = "Target Support Files/Pods-UpnetixSystemAlertQueue_Tests";
+			sourceTree = "<group>";
+		};
+		7668BB994176C964C503ABEA3758E080 /* UpnetixSystemAlertQueue */ = {
+			isa = PBXGroup;
+			children = (
+				4C0983C7A1F7CA5088A6874AB4B6B13B /* AlertFactoryManager.swift */,
+				5CDAA2CCBCB6B6A734D8F914E4E86F1A /* Constants.swift */,
+				C30E33BC2A47C5663EB583E467DF5074 /* UIAlertControllerInWindow.swift */,
+				EBFE5D5B18F88F8105E8FE78DDA89735 /* Pod */,
+				F9BDB846C0F663281A6DCCD1F4389617 /* Support Files */,
+			);
+			name = UpnetixSystemAlertQueue;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A93F887AE7C192A9AC0206D875F760F9 /* Pods-UpnetixSystemAlertQueueExample */ = {
+			isa = PBXGroup;
+			children = (
+				CB784FB1046D411FA956A6024C649A04 /* Pods-UpnetixSystemAlertQueueExample.modulemap */,
+				44491F3AD6F8A86038D74FFA47FA74DB /* Pods-UpnetixSystemAlertQueueExample-acknowledgements.markdown */,
+				24EE3A2354DFFE82924D45D2FDDBA09D /* Pods-UpnetixSystemAlertQueueExample-acknowledgements.plist */,
+				BF4F90EFAC44FC23C11CE1D1FC9118E8 /* Pods-UpnetixSystemAlertQueueExample-dummy.m */,
+				1DED0460A8010B710C5F2070308B2929 /* Pods-UpnetixSystemAlertQueueExample-frameworks.sh */,
+				EF9C442C04B75ACD2A0A9864F47BDF8A /* Pods-UpnetixSystemAlertQueueExample-Info.plist */,
+				5ACB6EEAE2C2DA829AD7EC0A8E966CB2 /* Pods-UpnetixSystemAlertQueueExample-umbrella.h */,
+				A58048849CE626DF6E2D95924BC2168C /* Pods-UpnetixSystemAlertQueueExample.debug.xcconfig */,
+				27F00D6E72613144CE0449663860754C /* Pods-UpnetixSystemAlertQueueExample.release.xcconfig */,
+			);
+			name = "Pods-UpnetixSystemAlertQueueExample";
+			path = "Target Support Files/Pods-UpnetixSystemAlertQueueExample";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4EF6E5C772A7E7E20D99EA30E8F952FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5DB3A4C277DE8C362BF59323562F2B3C /* Products */,
+				6BE854E85D0A295E61030697E3F6D5BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBFE5D5B18F88F8105E8FE78DDA89735 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				986B4E25A7DF7010F6DB1007D6EBCD0F /* LICENSE */,
+				F27AAE56CC3A888CB170F0D15BF26E0F /* README.md */,
+				6904CA01576538B2E3262898478EDDEF /* UpnetixSystemAlertQueue.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F9BDB846C0F663281A6DCCD1F4389617 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A486A3797777FE51A80D29E1B8F9E759 /* UpnetixSystemAlertQueue-iOS13.2.modulemap */,
+				239482DDF390EF9B847DE19032CE5B93 /* UpnetixSystemAlertQueue-iOS13.2.xcconfig */,
+				F3712B8C25ED575AACB45ABC09D8723E /* UpnetixSystemAlertQueue-iOS13.2-dummy.m */,
+				3A52267BFDCC201D32666D26561C2B05 /* UpnetixSystemAlertQueue-iOS13.2-Info.plist */,
+				5F900B5AD5C8A54460D470ABCF5360B6 /* UpnetixSystemAlertQueue-iOS13.2-prefix.pch */,
+				E14A3345498879B523AEA34A19EA3407 /* UpnetixSystemAlertQueue-iOS13.2-umbrella.h */,
+				F228096518F3E30874E5488529CD15AA /* UpnetixSystemAlertQueue-iOS9.3.modulemap */,
+				703926FCCE70EDAA294F60119B4A7CA0 /* UpnetixSystemAlertQueue-iOS9.3.xcconfig */,
+				FD12919806474FF1CF909943A1C86F06 /* UpnetixSystemAlertQueue-iOS9.3-dummy.m */,
+				0DD2E745912D4C8D846BA551A1BB7431 /* UpnetixSystemAlertQueue-iOS9.3-Info.plist */,
+				FFD493EE04ADABEAC393A2BE180D9E4E /* UpnetixSystemAlertQueue-iOS9.3-prefix.pch */,
+				072645DA2F3B5B405B0099C0BE8A9393 /* UpnetixSystemAlertQueue-iOS9.3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UpnetixSystemAlertQueue-iOS13.2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C5BD022F8AA9B00B05C759B1A38F4BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6104821814D4B62992B7CED102F7CF42 /* Pods-UpnetixSystemAlertQueueExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796C306C074562C92497981E1BCC1D26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE246D0FFCDF62DC2FB70E7DAF7DE05B /* UpnetixSystemAlertQueue-iOS9.3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99633AF4E12B692509EA828E1C1C7A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71919FEA2ED8CACAD6C5302DA79B70DA /* UpnetixSystemAlertQueue-iOS13.2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB51EDE91D68707955791D8597475192 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CC7364343B288197AE77ABF8EF39D /* Pods-UpnetixSystemAlertQueue_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3703D342C6B665A8D1FD0BD43F11053D /* UpnetixSystemAlertQueue-iOS9.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E51DA78689929DE253036AC1E539B3A /* Build configuration list for PBXNativeTarget "UpnetixSystemAlertQueue-iOS9.3" */;
+			buildPhases = (
+				796C306C074562C92497981E1BCC1D26 /* Headers */,
+				62D40A9C467C4D3478D6BC46C43DF4C6 /* Sources */,
+				072EF6D6394ED7D041C54FFEE26A2036 /* Frameworks */,
+				20F61A648E5FC580D579B8C4A476CEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UpnetixSystemAlertQueue-iOS9.3";
+			productName = "UpnetixSystemAlertQueue-iOS9.3";
+			productReference = EE661A56BF594FF511285DF842561B10 /* UpnetixSystemAlertQueue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		421BBDFF9732AA934BA2C4CAB7E16AE0 /* Pods-UpnetixSystemAlertQueue_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F6B02A904A473E20A2F96A151B87FA /* Build configuration list for PBXNativeTarget "Pods-UpnetixSystemAlertQueue_Tests" */;
+			buildPhases = (
+				FB51EDE91D68707955791D8597475192 /* Headers */,
+				BD9C3DDF438B65726B337297DD1BA68A /* Sources */,
+				B96306AA4597089B24BD99AB1951F30C /* Frameworks */,
+				9F3C468F541C5DFDCD326C3F406F4249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519CCE2769F2AE4EDFED84F84D11BB2F /* PBXTargetDependency */,
+			);
+			name = "Pods-UpnetixSystemAlertQueue_Tests";
+			productName = "Pods-UpnetixSystemAlertQueue_Tests";
+			productReference = E97475E86C22D9416F41CCF6504B5C29 /* Pods_UpnetixSystemAlertQueue_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FCBB709315BA5F50F0BE4C47D7F51DC /* UpnetixSystemAlertQueue-iOS13.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A31A3597E2A4E43F0E5ED4151E24EFCB /* Build configuration list for PBXNativeTarget "UpnetixSystemAlertQueue-iOS13.2" */;
+			buildPhases = (
+				99633AF4E12B692509EA828E1C1C7A51 /* Headers */,
+				4D8F07FB884B5230CE76F773AF680A87 /* Sources */,
+				58FB6C12F9F73D540632536EDD203056 /* Frameworks */,
+				1B5D48F81DF142FAB896B887E33774FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UpnetixSystemAlertQueue-iOS13.2";
+			productName = "UpnetixSystemAlertQueue-iOS13.2";
+			productReference = 9F3661477AADEEE02ADAF350E076827D /* UpnetixSystemAlertQueue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CEE16E09948E555A4DE059F859D5C94 /* Pods-UpnetixSystemAlertQueueExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60897CBD7F9DB0C9B64C47C56060E0E0 /* Build configuration list for PBXNativeTarget "Pods-UpnetixSystemAlertQueueExample" */;
+			buildPhases = (
+				2C5BD022F8AA9B00B05C759B1A38F4BD /* Headers */,
+				C0BD5E8F24A21BB12BD1BE6833C465A2 /* Sources */,
+				9FFFA7414D3098427C04046CFFE9EC57 /* Frameworks */,
+				D63B2B617E9555A6E864DC845AA8EBBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F0494E5DB24BC80D48182DBE646692 /* PBXTargetDependency */,
+			);
+			name = "Pods-UpnetixSystemAlertQueueExample";
+			productName = "Pods-UpnetixSystemAlertQueueExample";
+			productReference = 56BBD245678417F1C9A9F4B982A1758D /* Pods_UpnetixSystemAlertQueueExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5DB3A4C277DE8C362BF59323562F2B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421BBDFF9732AA934BA2C4CAB7E16AE0 /* Pods-UpnetixSystemAlertQueue_Tests */,
+				9CEE16E09948E555A4DE059F859D5C94 /* Pods-UpnetixSystemAlertQueueExample */,
+				8FCBB709315BA5F50F0BE4C47D7F51DC /* UpnetixSystemAlertQueue-iOS13.2 */,
+				3703D342C6B665A8D1FD0BD43F11053D /* UpnetixSystemAlertQueue-iOS9.3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5D48F81DF142FAB896B887E33774FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F61A648E5FC580D579B8C4A476CEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3C468F541C5DFDCD326C3F406F4249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63B2B617E9555A6E864DC845AA8EBBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8F07FB884B5230CE76F773AF680A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A5DC99B0846842BB3C0E0079F5592E /* AlertFactoryManager.swift in Sources */,
+				D72A451901BF64E64FA7E38B945BA7AC /* Constants.swift in Sources */,
+				670140A406BE3CEA60CAFAFF64A51312 /* UIAlertControllerInWindow.swift in Sources */,
+				F68AB99B7D786FB3995FFAAF7A6D7A84 /* UpnetixSystemAlertQueue-iOS13.2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D40A9C467C4D3478D6BC46C43DF4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0CC43CF188B289493BD01DF0E7403F /* AlertFactoryManager.swift in Sources */,
+				9A7146A06BBFCC0047F608AE17F2BFB5 /* Constants.swift in Sources */,
+				9331E7EC933B8A5C91F7933FA02F8F75 /* UIAlertControllerInWindow.swift in Sources */,
+				B99E9F7DDD5EAD955D02C28306A79564 /* UpnetixSystemAlertQueue-iOS9.3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9C3DDF438B65726B337297DD1BA68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0CBBF3D3CCA464388AC3D2087E1A64 /* Pods-UpnetixSystemAlertQueue_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD5E8F24A21BB12BD1BE6833C465A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C8E6865BEE7442DC9E7FEF3DE5CDA0 /* Pods-UpnetixSystemAlertQueueExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		519CCE2769F2AE4EDFED84F84D11BB2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UpnetixSystemAlertQueue-iOS9.3";
+			target = 3703D342C6B665A8D1FD0BD43F11053D /* UpnetixSystemAlertQueue-iOS9.3 */;
+			targetProxy = 3B0397767F55703D3902AC5488C7FF79 /* PBXContainerItemProxy */;
+		};
+		83F0494E5DB24BC80D48182DBE646692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UpnetixSystemAlertQueue-iOS13.2";
+			target = 8FCBB709315BA5F50F0BE4C47D7F51DC /* UpnetixSystemAlertQueue-iOS13.2 */;
+			targetProxy = 728663D060BE1064F8EDD8839D404DDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1654C4BC1809E1E45C4FB5D44250220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F00D6E72613144CE0449663860754C /* Pods-UpnetixSystemAlertQueueExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueueExample/Pods-UpnetixSystemAlertQueueExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueueExample/Pods-UpnetixSystemAlertQueueExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FBD3C1EF673A3E0000D755CBA8FBF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703926FCCE70EDAA294F60119B4A7CA0 /* UpnetixSystemAlertQueue-iOS9.3.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3.modulemap";
+				PRODUCT_MODULE_NAME = UpnetixSystemAlertQueue;
+				PRODUCT_NAME = UpnetixSystemAlertQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8064EC64F0155B25738F111D51D5169E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703926FCCE70EDAA294F60119B4A7CA0 /* UpnetixSystemAlertQueue-iOS9.3.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS9.3/UpnetixSystemAlertQueue-iOS9.3.modulemap";
+				PRODUCT_MODULE_NAME = UpnetixSystemAlertQueue;
+				PRODUCT_NAME = UpnetixSystemAlertQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8288792D6C5FB655B37C8917755A2264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58048849CE626DF6E2D95924BC2168C /* Pods-UpnetixSystemAlertQueueExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueueExample/Pods-UpnetixSystemAlertQueueExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueueExample/Pods-UpnetixSystemAlertQueueExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BAFF6F2C57E9EF90097E5323E6B20BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239482DDF390EF9B847DE19032CE5B93 /* UpnetixSystemAlertQueue-iOS13.2.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UpnetixSystemAlertQueue-iOS13.2/UpnetixSystemAlertQueue-iOS13.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS13.2/UpnetixSystemAlertQueue-iOS13.2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS13.2/UpnetixSystemAlertQueue-iOS13.2.modulemap";
+				PRODUCT_MODULE_NAME = UpnetixSystemAlertQueue;
+				PRODUCT_NAME = UpnetixSystemAlertQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9F825C5689D55E05BCE0425C522E0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758865B8B544C9ED769594BFFC9C94F4 /* Pods-UpnetixSystemAlertQueue_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueue_Tests/Pods-UpnetixSystemAlertQueue_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueue_Tests/Pods-UpnetixSystemAlertQueue_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E75A57651FB040516EF4B47A2BB4E9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239482DDF390EF9B847DE19032CE5B93 /* UpnetixSystemAlertQueue-iOS13.2.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UpnetixSystemAlertQueue-iOS13.2/UpnetixSystemAlertQueue-iOS13.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS13.2/UpnetixSystemAlertQueue-iOS13.2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UpnetixSystemAlertQueue-iOS13.2/UpnetixSystemAlertQueue-iOS13.2.modulemap";
+				PRODUCT_MODULE_NAME = UpnetixSystemAlertQueue;
+				PRODUCT_NAME = UpnetixSystemAlertQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBF54461EACB2E6E6B1877194A32AE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2108FDB5FC3EE37B7EC8E21B299382FE /* Pods-UpnetixSystemAlertQueue_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueue_Tests/Pods-UpnetixSystemAlertQueue_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UpnetixSystemAlertQueue_Tests/Pods-UpnetixSystemAlertQueue_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E51DA78689929DE253036AC1E539B3A /* Build configuration list for PBXNativeTarget "UpnetixSystemAlertQueue-iOS9.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBD3C1EF673A3E0000D755CBA8FBF77 /* Debug */,
+				8064EC64F0155B25738F111D51D5169E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60897CBD7F9DB0C9B64C47C56060E0E0 /* Build configuration list for PBXNativeTarget "Pods-UpnetixSystemAlertQueueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8288792D6C5FB655B37C8917755A2264 /* Debug */,
+				1654C4BC1809E1E45C4FB5D44250220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F6B02A904A473E20A2F96A151B87FA /* Build configuration list for PBXNativeTarget "Pods-UpnetixSystemAlertQueue_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF54461EACB2E6E6B1877194A32AE85 /* Debug */,
+				C9F825C5689D55E05BCE0425C522E0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A31A3597E2A4E43F0E5ED4151E24EFCB /* Build configuration list for PBXNativeTarget "UpnetixSystemAlertQueue-iOS13.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFF6F2C57E9EF90097E5323E6B20BE7 /* Debug */,
+				E75A57651FB040516EF4B47A2BB4E9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - UpnetixSystemAlertQueue (1.1.0)
+
+DEPENDENCIES:
+  - UpnetixSystemAlertQueue (from `../`)
+
+EXTERNAL SOURCES:
+  UpnetixSystemAlertQueue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UpnetixSystemAlertQueue: 0df0edddd6d842ab5994add3117458f3c44a823c
+
+PODFILE CHECKSUM: 198d88ddd5e9b82a9a5310a361bd4aefce8513f0
+
+COCOAPODS: 1.8.4
