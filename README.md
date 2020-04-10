@@ -29,12 +29,12 @@ AlertFactoryManager.shared.presentSimpleAlert(withMessage: "I am Simple Alert!, 
 #### Action Alert
 
 ```swift
-let default = UIAlertAction(title: "Default", style: .default, handler: nil)
+let defaultAction = UIAlertAction(title: "Default", style: .default, handler: nil)
 let destructive = UIAlertAction(title: "Destructive", style: .destructive, handler: nil)
 let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
 AlertFactoryManager.shared.presentActionAlert(withMessage: "Hello, I am ActionAlert!",
                                                 title: nil,
-                                                withActions: [default, destructive, cancel])
+                                                withActions: [defaultAction, destructive, cancel])
 ```
 
 ## License
