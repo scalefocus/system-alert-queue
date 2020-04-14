@@ -24,7 +24,7 @@ pod 'SystemAlertQueue'
 #### Simple Alert
 
 ```swift
-AlertFactoryManager.shared.presentSimpleAlert(withMessage: "I am Simple Alert!, title: nil)
+AlertFactoryManager.shared.presentSimpleAlert(withMessage: "I am Simple Alert!", title: nil)
 ```
 #### Action Alert
 
