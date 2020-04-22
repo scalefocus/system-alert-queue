@@ -2,6 +2,7 @@
 # SystemAlertQueue
 
 [![Swift Version][swift-image]][swift-url]
+[![Build Status][travis-image]][travis-url]
 [![License][license-image]][license-url]
 ![CocoaPods Compatible][version-url]
 [![Platform][platform-url]][pod-url]
@@ -48,3 +49,5 @@ SystemAlertQueue is available under the MIT license. See the [LICENSE][license-u
 [version-url]:  https://img.shields.io/cocoapods/v/SystemAlertQueue.svg
 [pod-url]: http://cocoapods.org/pods/SystemAlertQueue
 [platform-url]: https://img.shields.io/cocoapods/p/SystemAlertQueue
+[travis-image]: https://travis-ci.com/scalefocus/system-alert-queue.svg?branch=master
+[travis-url]: https://travis-ci.com/github/scalefocus/system-alert-queue
