@@ -9,7 +9,7 @@ Simple manager that presents alerts by adding them in queue and chains their pre
 
   s.homepage         = 'https://github.com/scalefocus/system-alert-queue'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Scalefocus' => 'ios@scalefocus.com..' }
+  s.author           = { 'Scalefocus' => 'ios@scalefocus.com.' }
   s.source           = { :git => 'https://github.com/scalefocus/system-alert-queue.git', :tag => s.version.to_s }
 
   s.platform     = :ios, "11.0"
