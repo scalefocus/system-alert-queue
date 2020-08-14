@@ -25,7 +25,7 @@ open class AlertFactoryManager {
     ///   - priority: priority (by default it's 0)
     ///   - withActions: UIalert actions
     @discardableResult
-    open func presentActionAlert(withMessage message: String,
+    open func presentActionAlert(withMessage message: String?,
                                  title: String?,
                                  preferredStyle: UIAlertController.Style = .alert,
                                  priority: Int = 0,
@@ -48,7 +48,7 @@ open class AlertFactoryManager {
     ///   - priority: priority (by default it's 0)
     ///   - alertActionTitle: String title of the "ok" alert action.
     @discardableResult
-    open func presentSimpleAlert(withMessage message: String,
+    open func presentSimpleAlert(withMessage message: String?,
                                  title: String?,
                                  preferredStyle: UIAlertController.Style = .alert,
                                  priority: Int = 0,
@@ -74,7 +74,7 @@ open class AlertFactoryManager {
     ///   - retryActionTitle: String title of the "retry" alert action.
     ///   - cancelActionTitle: String title of the "cancel" alert action.
     @discardableResult
-    open func presentRetryAlert(withMessage message: String,
+    open func presentRetryAlert(withMessage message: String?,
                                 title: String?,
                                 preferredStyle: UIAlertController.Style = .alert,
                                 priority: Int = 0,
