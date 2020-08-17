@@ -24,16 +24,25 @@ open class AlertFactoryManager {
     ///   - preferredStyle: Style of the alert controller. `.alert` by default.
     ///   - priority: priority (by default it's 0)
     ///   - withActions: UIalert actions
+    ///   - textFieldAttributes: Optional textField attributes
     @discardableResult
     open func presentActionAlert(withMessage message: String?,
                                  title: String?,
                                  preferredStyle: UIAlertController.Style = .alert,
                                  priority: Int = 0,
-                                 withActions: [UIAlertAction]) -> UIAlertController {
+                                 withActions: [UIAlertAction],
+                                 textFieldAttributes: TextFieldAttributes? = nil) -> UIAlertController {
         let alert = UIAlertControllerInWindow(title: title,
                                               message: message,
                                               preferredStyle: preferredStyle,
                                               priority: priority)
+        if let textFieldAttributes = textFieldAttributes {
+            alert.addTextField { textfield in
+                textfield.attributedText = textFieldAttributes.attributedText
+                textfield.attributedPlaceholder = textFieldAttributes.attributedPlaceholder
+            }
+        }
+        
         withActions.forEach { alert.addAction($0) }
         insertAlert(alert)
         return alert
@@ -138,4 +147,14 @@ open class AlertFactoryManager {
         }
     }
     
+}
+
+public struct TextFieldAttributes {
+    let attributedText: NSAttributedString
+    let attributedPlaceholder: NSAttributedString
+    
+    public init(attributedText: NSAttributedString, attributedPlaceholder: NSAttributedString) {
+        self.attributedText = attributedText
+        self.attributedPlaceholder = attributedPlaceholder
+    }
 }
