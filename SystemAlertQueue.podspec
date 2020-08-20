@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name             = 'SystemAlertQueue'
-  s.version          = '2.1.1'
+  s.version          = '2.2.0'
   s.summary          = 'System Alert Queue.'
   s.description      = <<-DESC
 Simple manager that presents alerts by adding them in queue and chains their presentation. A priority can be set to have further control.
