@@ -24,16 +24,31 @@ open class AlertFactoryManager {
     ///   - preferredStyle: Style of the alert controller. `.alert` by default.
     ///   - priority: priority (by default it's 0)
     ///   - withActions: UIalert actions
+    ///   - textFieldsAttributes: Optional textFields' attributes
     @discardableResult
     open func presentActionAlert(withMessage message: String?,
                                  title: String?,
                                  preferredStyle: UIAlertController.Style = .alert,
                                  priority: Int = 0,
-                                 withActions: [UIAlertAction]) -> UIAlertController {
+                                 withActions: [UIAlertAction],
+                                 textFieldsAttributes: [TextFieldAttributes]? = nil) -> UIAlertController {
         let alert = UIAlertControllerInWindow(title: title,
                                               message: message,
                                               preferredStyle: preferredStyle,
                                               priority: priority)
+        if let textFieldsAttributes = textFieldsAttributes {
+            for textFieldAttributes in textFieldsAttributes {
+                alert.addTextField { textfield in
+                    textfield.attributedText = textFieldAttributes.attributedText
+                    textfield.attributedPlaceholder = textFieldAttributes.attributedPlaceholder
+                    textfield.tag = textFieldAttributes.tag
+                    textfield.keyboardType = textFieldAttributes.keyboardType
+                    textfield.returnKeyType = textFieldAttributes.returnKeyType
+                    textfield.delegate = textFieldAttributes.delegate
+                }
+            }
+        }
+        
         withActions.forEach { alert.addAction($0) }
         insertAlert(alert)
         return alert
@@ -138,4 +153,38 @@ open class AlertFactoryManager {
         }
     }
     
+}
+
+/// Attributes to add in an alert's textField
+public struct TextFieldAttributes {
+    
+    /// Attributed text used to write in the textField
+    public let attributedText: NSAttributedString
+    
+    /// Attributed placeholder shown when the textField is empty
+    public let attributedPlaceholder: NSAttributedString
+    
+    /// Unique tag to separate different textFields in case of multiple ones in a single alert
+    public let tag: Int
+    
+    /// The type of keyboard that will be shown when writing in the specified textField
+    public let keyboardType: UIKeyboardType
+    
+    /// The keyboard's return button type
+    public let returnKeyType: UIReturnKeyType
+    
+    /// The textField's delegate
+    public weak var delegate: UITextFieldDelegate?
+    
+    public init(attributedText: NSAttributedString,
+                attributedPlaceholder: NSAttributedString,
+                tag: Int = 0,
+                keyboardType: UIKeyboardType = .default,
+                returnKeyType: UIReturnKeyType = .default) {
+        self.attributedText = attributedText
+        self.attributedPlaceholder = attributedPlaceholder
+        self.tag = tag
+        self.keyboardType = keyboardType
+        self.returnKeyType = returnKeyType
+    }
 }
